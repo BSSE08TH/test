@@ -6,5 +6,7 @@ public class Main {
     System.out.println("Change in master");
     int a = 108;
     System.out.println(a+100);
+    TestClass cls = new TestClass();
+    cls.print(a+100);
   }
 }
